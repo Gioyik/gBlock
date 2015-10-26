@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "gBlock",
+	"description": "Block ads in Firefox OS",
+	"version": "1.0",
+	"author": "Giovanny Gongora",
+	"content_scripts": [{
+		"matches": ["*://*/*"],
+		"js": ["js/gblock.js"]
+	}],
+	"icons": {
+		"128": "/icons/128.png"
+	}
+}
