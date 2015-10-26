@@ -1,0 +1,9 @@
+{
+	"name": "gBlock",
+	"description": "Block ads in Firefox OS",
+	"developer": { "name": "Giovanny Gongora"},
+	"package_path": "gBlock.zip",
+	"icons": {
+		"128": "/icons/128.png"
+	}
+}
